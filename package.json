@@ -1,0 +1,12 @@
+{
+  "name": "cmbutil",
+  "version": "1.0.0",
+  "description": "A small set of useful vanilla Javascript utilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vanillajs", "utilities", "cmbdev"],
+  "author": "Chris Baughman <cmbdev@pm.me>",
+  "license": "MIT"
+}
