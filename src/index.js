@@ -50,31 +50,13 @@ class CMBUtil {
       return null;
     }
   
-    // object-fit
-    static fixObjectFit(selector) {
-      if (typeof(Modernizr) !== 'undefined') {
-        if (!Modernizr.objectfit) {
-          var containers = document.querySelectorAll(selector);
-          for (var i = 0; i < containers.length; i++) {
-            var el = containers[i],
-            img = el.querySelector('img'),
-            imgUrl = img.getAttribute('src');
-            if (imgUrl !== null) {
-              el.style.backgroundImage = 'url(' + imgUrl + ')';
-              el.classList.add('ie-hero');
-            }
-          }
-        }
-      }
-    }
-  
     /**
-      * Get the largest value from an array
-      * @param narray integer
-      **/
-      static getMaxFromArray(narray) {
-          return Math.max.apply(null, narray);
-      }
+     * Get the largest value from an array
+     * @param narray integer
+    **/
+    static getMaxFromArray(narray) {
+        return Math.max.apply(null, narray);
+    }
   
     static isIE() {
       if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
