@@ -1,6 +1,6 @@
 {
   "name": "@cmbdev/cmbutils",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A small set of useful vanilla Javascript utilities.",
   "main": "./dist/index.js",
   "type": "module",
