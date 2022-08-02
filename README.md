@@ -5,3 +5,9 @@
 [![GitHub license](https://img.shields.io/github/license/cmbaughman/cmbutils)](https://github.com/cmbaughman/cmbutils/blob/main/LICENSE)
 
 A small set of useful vanilla Javascript utilities.
+
+## Build from source
+
+```
+npm install && npm run build
+```
